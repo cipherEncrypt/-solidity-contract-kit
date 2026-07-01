@@ -1,0 +1,37 @@
+{
+  "name": "solidity-contract-kit",
+  "version": "1.0.0",
+  "description": "A collection of clean, tested, well-commented Solidity smart contract templates: ERC-20, ERC-721, staking, vesting, and multisig. Ready to fork and build on.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contracts",
+    "erc20",
+    "erc721",
+    "nft",
+    "staking",
+    "vesting",
+    "multisig",
+    "hardhat",
+    "web3",
+    "blockchain"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "solc": "^0.8.24"
+  }
+}
