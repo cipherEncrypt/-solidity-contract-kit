@@ -102,9 +102,9 @@ hardhat.config.js   Compiler + network config
 
 ## Contributing
 
-Pull requests are welcome — new templates, gas optimizations, and extra tests
+Pull requests are welcome new templates, gas optimizations, and extra tests
 especially. Fork it, build something, and open a PR.
 
 ## License
 
-[MIT](./LICENSE) — free to use, modify, and share.
+[MIT](./LICENSE)  free to use, modify, and share.
